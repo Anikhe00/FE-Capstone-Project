@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.main-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    color: white;
+}
+
+.side-nav-bar {
+    width: 16%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 1.25rem 1rem;
+    background-color: #FAF9F8;
+    row-gap: 2rem;
+    overflow: scroll;
+}
+
+.logo-and-search-bar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 2rem;
+}
+
+.organix-logo {
+    width: fit-content;
+    height: auto;
+}
+
+.search-bar {
+    display: flex;
+    height: auto;
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: #F0EFEE;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    width: 100%;
+}
+
+.search-content {
+    display: flex; 
+    flex-direction: row;
+    align-items: center; 
+    justify-content: start;
+    gap: 0.5rem; 
+    color: #848689;
+}
+
+.search-icon-span {
+    width: fit-content;
+    height: auto;
+    display: flex;
+}
+
+.search-icon-span img {
+    width: 1.125rem;
+    height: 1.125rem;
+    color: #848689;
+}
+
+.shortcut {
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    padding: 0.25rem 0.5rem; 
+    background-color: #FAF9F8; 
+    border-radius: 0.25rem; 
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    font-size: 0.875rem; 
+    color: #848689;
+    font-weight: 500; 
+    column-gap: 0.25rem;
+}
+
+.command-key {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.command-key img {
+    width: 0.875rem;
+    height: 0.875rem;
+    color: #848689;
+}
+
+.menu {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 2rem;
+}
+
+.main-menu {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1rem;
+}
+
+.menu-title {
+    width: fit-content;
+    height: auto;
+}
+
+.menu-title p {
+    font-size: 0.75rem;
+    line-height: 0.875rem;
+    font-weight: 400;
+    text-align: start;
+    color: #848689;
+}
+
+.menu-items {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 0.5rem;
+}
+
+.item {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 0.75rem;
+    padding: 0.75rem;
+    cursor: pointer;
+    border-radius: 0.75rem;
+}
+
+.item:hover {
+    background-color: #F0EFEE;
+}
+
+.active {
+    background-color: #EDECF5;
+}
+
+.item-icon {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-icon img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.item-label {
+    width: fit-content;
+    height: auto;
+}
+
+.item-label p {
+    font-size: 0.875rem;
+    line-height: 1rem;
+    color: #848689;
+    text-align: start;
+    letter-spacing: normal;
+    font-weight: 500;
+}
+
+.active-menu p{
+    color: #5353CB;
+}
+
+.teal {
+    width: 1rem;
+    height: 1rem;
+    background-color: #00B4CC;
+    border-radius: 24rem;
+}
+
+.purple {
+    width: 1rem;
+    height: 1rem;
+    background-color: #7956F2;
+    border-radius: 24rem;
+}
+
+.orange {
+    width: 1rem;
+    height: 1rem;
+    background-color: #F77D4A;
+    border-radius: 24rem;
+}
+
+.pink {
+    width: 1rem;
+    height: 1rem;
+    background-color: #D456F2;
+    border-radius: 24rem;
+}
